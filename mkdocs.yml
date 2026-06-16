@@ -1,0 +1,65 @@
+site_name: "Discovering New Physics at FCC-ee — MSc Thesis"
+site_url: https://WopkeTelman.github.io/MSc_Thesis/
+site_author: Wopke Telman
+site_description: >-
+  MSc thesis on discovering W' and Z' bosons at the FCC-ee
+  using UV coupling fits in the SMEFT framework.
+
+repo_url: https://github.com/WopkeTelman/MSc_Thesis
+repo_name: WopkeTelman/MSc_Thesis
+edit_uri: edit/main/
+
+docs_dir: '.'
+
+nav:
+  - Home: README.md
+  - Project Overview: PROJECT_OVERVIEW.md
+  - Pipeline Guide: PIPELINE.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WopkeTelman/MSc_Thesis
