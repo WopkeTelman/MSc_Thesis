@@ -12,25 +12,31 @@
         <meta name="author" content="Wopke Telman">
       
       
+        <link rel="canonical" href="https://WopkeTelman.github.io/MSc_Thesis/physics/matching/">
       
+      
+        <link rel="prev" href="../zprime/">
+      
+      
+        <link rel="next" href="../../pipeline/quickstart/">
       
       
         
       
       
-      <link rel="icon" href="/MSc_Thesis/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Discovering New Physics at FCC-ee</title>
+        <title>SMEFT Matching - Discovering New Physics at FCC-ee</title>
       
     
     
-      <link rel="stylesheet" href="/MSc_Thesis/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/MSc_Thesis/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("/MSc_Thesis/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#smeft-matching-fcc-ee-observables" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/MSc_Thesis/." title="Discovering New Physics at FCC-ee" class="md-header__button md-logo" aria-label="Discovering New Physics at FCC-ee" data-md-component="logo">
+    <a href="../.." title="Discovering New Physics at FCC-ee" class="md-header__button md-logo" aria-label="Discovering New Physics at FCC-ee" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              SMEFT Matching
             
           </span>
         </div>
@@ -226,7 +237,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/MSc_Thesis/." title="Discovering New Physics at FCC-ee" class="md-nav__button md-logo" aria-label="Discovering New Physics at FCC-ee" data-md-component="logo">
+    <a href="../.." title="Discovering New Physics at FCC-ee" class="md-nav__button md-logo" aria-label="Discovering New Physics at FCC-ee" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -256,7 +267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -280,8 +291,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -292,13 +305,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -319,7 +330,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -337,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/physics/background/" class="md-nav__link">
+      <a href="../background/" class="md-nav__link">
         
   
   
@@ -365,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/physics/wprime/" class="md-nav__link">
+      <a href="../wprime/" class="md-nav__link">
         
   
   
@@ -393,7 +404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/physics/zprime/" class="md-nav__link">
+      <a href="../zprime/" class="md-nav__link">
         
   
   
@@ -418,10 +429,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/MSc_Thesis/physics/matching/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMEFT Matching
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -437,6 +475,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#theory-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory Prediction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fisher-information-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fisher Information Matrix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fcc-ee-dataset-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FCC-ee Dataset Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rge-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RGE Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -510,7 +612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/pipeline/quickstart/" class="md-nav__link">
+      <a href="../../pipeline/quickstart/" class="md-nav__link">
         
   
   
@@ -538,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/pipeline/pipeline/" class="md-nav__link">
+      <a href="../../pipeline/pipeline/" class="md-nav__link">
         
   
   
@@ -566,7 +668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/pipeline/newmodel/" class="md-nav__link">
+      <a href="../../pipeline/newmodel/" class="md-nav__link">
         
   
   
@@ -655,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/results/significance/" class="md-nav__link">
+      <a href="../../results/significance/" class="md-nav__link">
         
   
   
@@ -683,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/results/closure/" class="md-nav__link">
+      <a href="../../results/closure/" class="md-nav__link">
         
   
   
@@ -711,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/results/discrimination/" class="md-nav__link">
+      <a href="../../results/discrimination/" class="md-nav__link">
         
   
   
@@ -746,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/MSc_Thesis/overview/" class="md-nav__link">
+      <a href="../../overview/" class="md-nav__link">
         
   
   
@@ -783,6 +885,60 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#theory-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Theory Prediction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fisher-information-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fisher Information Matrix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fcc-ee-dataset-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FCC-ee Dataset Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rge-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RGE Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -795,8 +951,87 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="smeft-matching-fcc-ee-observables">SMEFT Matching &amp; FCC-ee Observables<a class="headerlink" href="#smeft-matching-fcc-ee-observables" title="Permanent link">&para;</a></h1>
+<h2 id="theory-prediction">Theory Prediction<a class="headerlink" href="#theory-prediction" title="Permanent link">&para;</a></h2>
+<p>The theory prediction for observable $i$ at Wilson coefficients $c$ is:</p>
+<p>$$\sigma_i(c) = \sigma_i(\mathrm{SM}) + K_{ij} c_j + K^{(2)}_{i,ab} c_a c_b$$</p>
+<p>where $K_{ij}$ are the linear theory coefficients ($\partial\sigma/\partial c$ at $c=0$)
+and $K^{(2)}$ are the quadratic corrections. The chi-square is:</p>
+<p>$$\chi^2(c) = \sum_{ij} [\sigma_i(c) - d_i] (C^{-1})_{ij} [\sigma_j(c) - d_j]$$</p>
+<h2 id="fisher-information-matrix">Fisher Information Matrix<a class="headerlink" href="#fisher-information-matrix" title="Permanent link">&para;</a></h2>
+<p>The Fisher information matrix quantifies sensitivity before any fit:</p>
+<p>$$F_{ij} = K^T C^{-1} K$$</p>
+<p>Its eigenvectors (PCA) give the directions of maximum sensitivity in Wilson coefficient space.
+For the UV parameter space the Fisher is contracted with the matching Jacobian:</p>
+<p>$$\mathcal{I}<em ij="ij">{\ell\ell'} = \sum</em>$$} \frac{\partial\sigma_i}{\partial g^\ell} (C^{-1})_{ij} \frac{\partial\sigma_j}{\partial g^{\ell'}</p>
+<div class="admonition warning">
+<p class="admonition-title">Corrected UV Fisher</p>
+<p>The smefit package contains a bug in <code>impose_constrain</code>: it evaluates the Jacobian
+by setting one UV parameter to 1 and all others to 0, which zeroes all bilinear
+matching terms (e.g. $C_{OQl13} \propto g_{WH} \cdot g_{WLf}$).
+The corrected implementation is in <code>scripts/fisher_uv.py</code>, which evaluates the
+Jacobian via finite differences at the UV truth point.</p>
+</div>
+<h2 id="fcc-ee-dataset-summary">FCC-ee Dataset Summary<a class="headerlink" href="#fcc-ee-dataset-summary" title="Permanent link">&para;</a></h2>
+<p><strong>40 observables</strong> across four energy tiers:</p>
+<table>
+<thead>
+<tr>
+<th>√s</th>
+<th>Datasets</th>
+<th>Physics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>91 GeV</td>
+<td>FCCee_Zdata, FCCee_Wwidth</td>
+<td>Z-pole EWPOs: Γ_Z, σ_had, R_l, A_FB</td>
+</tr>
+<tr>
+<td>161 GeV</td>
+<td>FCCee_ww_161GeV, FCCee_Brw</td>
+<td>WW threshold, W branching ratio</td>
+</tr>
+<tr>
+<td>240 GeV</td>
+<td>FCCee_ww/zh/ee/Rb/Rc/...</td>
+<td>ZH Higgs + EWPO (~20 datasets)</td>
+</tr>
+<tr>
+<td>365 GeV</td>
+<td>FCCee_ww/zh/vvh/ee/Rb/...</td>
+<td>High-energy EWPO + ZH + WW-fusion (~16 datasets)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rge-settings">RGE Settings<a class="headerlink" href="#rge-settings" title="Permanent link">&para;</a></h2>
+<p>All fits use SMEFT RGE from the matching scale down to the observable scale:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">init_scale</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1000.0 GeV</span><span class="w">   </span><span class="c1"># matching scale</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">obs_scale</span><span class="p">:</span><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">dynamic</span><span class="w">       </span><span class="c1"># run to each dataset&#39;s energy</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nt">smeft_accuracy</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">integrate</span><span class="w"> </span><span class="c1"># exact numerical integration</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nt">yukawa</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">top</span><span class="w">               </span><span class="c1"># include top Yukawa</span>
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -814,6 +1049,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../zprime/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Z&#39; Boson">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Z' Boson
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../pipeline/quickstart/" class="md-footer__link md-footer__link--next" aria-label="Next: Quick Start">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quick Start
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -857,10 +1130,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/MSc_Thesis/", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.highlight", "search.share", "content.code.copy", "content.code.annotate"], "search": "/MSc_Thesis/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.highlight", "search.share", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/MSc_Thesis/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
