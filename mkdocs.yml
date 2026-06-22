@@ -1,4 +1,4 @@
-site_name: "Discovering New Physics at FCC-ee — MSc Thesis"
+site_name: "Discovering New Physics at FCC-ee"
 site_url: https://WopkeTelman.github.io/MSc_Thesis/
 site_author: Wopke Telman
 site_description: >-
@@ -13,8 +13,20 @@ docs_dir: docs
 
 nav:
   - Home: index.md
-  - Project Overview: overview.md
-  - Pipeline Guide: pipeline.md
+  - Physics & Models:
+    - Background: physics/background.md
+    - W' Boson: physics/wprime.md
+    - Z' Boson: physics/zprime.md
+    - SMEFT Matching: physics/matching.md
+  - Analysis Pipeline:
+    - Quick Start: pipeline/quickstart.md
+    - Step-by-Step Guide: pipeline/pipeline.md
+    - Adding a New Model: pipeline/newmodel.md
+  - Results:
+    - Significance & Reach: results/significance.md
+    - Closure Tests: results/closure.md
+    - Model Discrimination: results/discrimination.md
+  - Project Status: overview.md
 
 theme:
   name: material
@@ -32,9 +44,13 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.top
+    - navigation.instant
+    - navigation.tracking
     - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.highlight
     - search.share
     - content.code.copy
