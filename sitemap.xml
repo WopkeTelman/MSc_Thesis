@@ -2,54 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
-         <loc>https://WopkeTelman.github.io/MSc_Thesis/overview/</loc>
-         <lastmod>2026-06-22</lastmod>
-    </url>
-    <url>
-         <loc>https://WopkeTelman.github.io/MSc_Thesis/pipeline/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <loc>https://WopkeTelman.github.io/MSc_Thesis/scripts/</loc>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/physics/background/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/physics/matching/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/physics/wprime/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/physics/zprime/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/pipeline/newmodel/</loc>
-         <lastmod>2026-06-22</lastmod>
-    </url>
-    <url>
-         <loc>https://WopkeTelman.github.io/MSc_Thesis/pipeline/pipeline/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/pipeline/quickstart/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/results/closure/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/results/discrimination/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
     <url>
          <loc>https://WopkeTelman.github.io/MSc_Thesis/results/significance/</loc>
-         <lastmod>2026-06-22</lastmod>
+         <lastmod>2026-06-23</lastmod>
     </url>
 </urlset>
