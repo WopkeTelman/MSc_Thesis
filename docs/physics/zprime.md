@@ -6,7 +6,7 @@ vector boson.
 ## Lagrangian
 
 $$\mathcal{L} \supset g_{ZH} \cdot Z'_\mu (H^\dagger i D^\mu H)
-+ g_{Zl} \cdot Z'_\mu \sum_\mathrm{gen} (\bar{l}_{L,\mathrm{gen}} \gamma^\mu l_{L,\mathrm{gen}})$$
++ g_{Zl} \cdot Z'_\mu \sum_{\mathrm{gen}} (\bar{l}_{L,{\mathrm{gen}}} \gamma^\mu l_{L,{\mathrm{gen}}})$$
 
 ## UV Parameters
 

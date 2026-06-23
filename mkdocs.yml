@@ -18,15 +18,14 @@ nav:
     - W' Boson: physics/wprime.md
     - Z' Boson: physics/zprime.md
     - SMEFT Matching: physics/matching.md
+  - Scripts & Runcards: scripts.md
   - Analysis Pipeline:
     - Quick Start: pipeline/quickstart.md
-    - Step-by-Step Guide: pipeline/pipeline.md
     - Adding a New Model: pipeline/newmodel.md
   - Results:
     - Significance & Reach: results/significance.md
     - Closure Tests: results/closure.md
     - Model Discrimination: results/discrimination.md
-  - Project Status: overview.md
 
 theme:
   name: material
@@ -69,13 +68,20 @@ markdown_extensions:
       base_path: '.'
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
   - tables
   - toc:
       permalink: true
   - attr_list
+  - md_in_html
 
 plugins:
   - search
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   social:

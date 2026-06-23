@@ -12,7 +12,7 @@ The Standard Model Effective Field Theory (SMEFT) provides a systematic framewor
 BSM physics at a high scale Λ is captured by a tower of higher-dimensional operators
 added to the SM Lagrangian:
 
-$$\mathcal{L}_\mathrm{eff} = \mathcal{L}_\mathrm{SM} + \sum_i \frac{C_i}{\Lambda^2} \mathcal{O}_i$$
+$$\mathcal{L}_{\mathrm{eff}} = \mathcal{L}_{\mathrm{SM}} + \sum_i \frac{C_i}{\Lambda^2} \mathcal{O}_i$$
 
 where $C_i$ are the Wilson coefficients and $\mathcal{O}_i$ are dimension-6 operators in the Warsaw basis.
 

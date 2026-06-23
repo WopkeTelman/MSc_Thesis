@@ -4,7 +4,7 @@
 
 The theory prediction for observable $i$ at Wilson coefficients $c$ is:
 
-$$\sigma_i(c) = \sigma_i(\mathrm{SM}) + K_{ij} c_j + K^{(2)}_{i,ab} c_a c_b$$
+$$\sigma_i(c) = \sigma_i({\mathrm{SM}}) + K_{ij} c_j + K^{(2)}_{i,ab} c_a c_b$$
 
 where $K_{ij}$ are the linear theory coefficients ($\partial\sigma/\partial c$ at $c=0$)
 and $K^{(2)}$ are the quadratic corrections. The chi-square is:

@@ -65,6 +65,28 @@ The two benchmark models studied are:
 - **W' boson** — SU(2)_L triplet, generates 27 Warsaw-basis operators. Primary operators: OQl13 (charged-current quark-lepton), O3pl (Higgs-lepton triplet), OpBox.
 - **Z' boson** — U(1) singlet (B'-like), generates 10 operators. Primary operator: OpD (T-parameter), which is extremely tightly constrained at the Z-pole — giving Z' roughly 2× the mass reach of W'.
 
+## Quick links
+
+<div class="grid cards" markdown>
+
+-   :material-console: **Scripts & Runcards**
+
+    ---
+
+    Complete reference of all analysis scripts, models, and how to run each one.
+
+    [:octicons-arrow-right-24: View reference](scripts.md)
+
+-   :material-rocket-launch: **Quick Start**
+
+    ---
+
+    Get up and running with the pipeline in two commands.
+
+    [:octicons-arrow-right-24: Quick start](pipeline/quickstart.md)
+
+</div>
+
 ## Supervisor
 
-[Juan Rojo](https://www.jrojo.info), VU Amsterdam / Nikhef
+[Juan Rojo](https://juanrojo.com), VU Amsterdam / Nikhef
